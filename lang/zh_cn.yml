@@ -1,0 +1,8 @@
+lcss.loaded: "插件已加载"
+lcss.unloaded: "插件已卸载"
+lcss.no_permission: "你没有使用此命令的权限"
+lcss.bundle_error: "配置解析失败，请到控制台查看详情"
+lcss.schedule_start: "定时任务已启动"
+lcss.schedule_delete: "已删除一个定时任务"
+lcss.schedule_error: "时间格式错误"
+lcss.schedule_stop: "定时任务已停止"

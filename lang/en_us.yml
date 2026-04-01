@@ -1,0 +1,8 @@
+lcss.loaded: "Plugin loaded"
+lcss.unloaded: "Plugin unloaded"
+lcss.no_permission: "You don't have permission to use this command"
+lcss.bundle_error: "Configuration Configuration parsing failed, please check the console for details"
+lcss.schedule_start: "Scheduled task started"
+lcss.schedule_delete: "Scheduled task deleted"
+lcss.schedule_error: "Invalid time format"
+lcss.schedule_stop: "Scheduled task stopped"

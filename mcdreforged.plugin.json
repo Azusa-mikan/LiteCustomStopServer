@@ -1,0 +1,11 @@
+{
+    "id": "lcss",
+    "version": "1.0.0",
+    "name": "LiteCustomStopServer",
+    "description": {
+        "en_us": "Automatically send a message to all players before the server shutdown/restart",
+        "zh_cn": "在服务器关闭/重启前自动向所有玩家发送消息"
+    },
+    "author": "Azusa-mikan",
+    "resources": ["lang"]
+}

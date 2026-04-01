@@ -1,0 +1,2 @@
+pydantic==2.12.5
+schedule==1.2.2

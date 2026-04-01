@@ -7,5 +7,6 @@
         "zh_cn": "在服务器关闭/重启前自动向所有玩家发送消息"
     },
     "author": "Azusa-mikan",
+    "link": "https://github.com/Azusa-mikan/LiteCustomStopServer",
     "resources": ["lang"]
 }

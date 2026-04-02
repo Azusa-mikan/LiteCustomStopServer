@@ -224,9 +224,8 @@ class PluginMain:
                     "lcss.bundle_error"
                 ).set_color(RColor.red)
             )
-            self.server.logger.error(
-                f"{e.file} Configuration parsing failed",
-                exc_info=e
+            self.server.logger.exception(
+                f"{e.file} Configuration parsing failed"
             )
         else:
             if self.config.timing:
@@ -307,10 +306,9 @@ class PluginMain:
                 is_once=is_once,
                 raw_time=raw_time
                 )
-            except Exception as e:
-                self.server.logger.error(
-                    self.server.tr("lcss.schedule_error"),
-                    exc_info=e
+            except Exception:
+                self.server.logger.exception(
+                    self.server.tr("lcss.schedule_error")
                 )
         return
 
@@ -328,10 +326,9 @@ class PluginMain:
                 is_once=is_once,
                 raw_time=raw_time
                 )
-            except Exception as e:
-                self.server.logger.error(
-                    self.server.tr("lcss.schedule_error"),
-                    exc_info=e
+            except Exception:
+                self.server.logger.exception(
+                    self.server.tr("lcss.schedule_error")
                 )
         return
 

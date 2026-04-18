@@ -302,9 +302,9 @@ class PluginMain:
                 schedule_time = time_part.replace('-', ':')
                 is_once = (is_delete_str.strip() == '1')
                 self._scheduled.every().day.at(schedule_time).do(
-                self._scheduled_task_stop, 
-                is_once=is_once,
-                raw_time=raw_time
+                    self._scheduled_task_stop, 
+                    is_once=is_once,
+                    raw_time=raw_time
                 )
             except Exception:
                 self.server.logger.exception(
@@ -322,9 +322,9 @@ class PluginMain:
                 schedule_time = time_part.replace('-', ':')
                 is_once = (is_delete_str.strip() == '1')
                 self._scheduled.every().day.at(schedule_time).do(
-                self._scheduled_task_restart, 
-                is_once=is_once,
-                raw_time=raw_time
+                    self._scheduled_task_restart, 
+                    is_once=is_once,
+                    raw_time=raw_time
                 )
             except Exception:
                 self.server.logger.exception(
